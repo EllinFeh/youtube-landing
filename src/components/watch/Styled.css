@@ -1,0 +1,100 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #F9F9F9;
+}
+
+.content{
+    justify-content: space-between;
+}
+
+.video-content{
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: 1.5vw 0 0 4vw;
+}
+.dad-frame{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 14px;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.channel{
+flex-direction: column;
+}
+
+.channel-info{
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-button{
+    height: 40px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: rgb(255, 0, 0);
+    padding: 10px 18px;
+    border-radius: 40px;
+}
+
+.shared-infos{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.shared-infos button{
+    background-color: #cccccc78;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.like{
+    height: 40px;
+    padding: 0px 8px 0px 10px;
+    border-top-left-radius: 40px ;
+    border-bottom-left-radius: 40px ;
+}
+.dislike{
+    height: 40px;
+    padding: 0px 20px 0px 8px;
+    border-left: 1px solid #999;
+    border-top-right-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+}
+
+.button{
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 40px;
+}
+.button:hover{
+    background-color: #999;
+}
+.like:hover{
+    cursor: pointer;
+    background-color: #999;
+}
+.dislike:hover{
+    cursor: pointer;
+    background-color: #999;
+}
+.pointer:hover{
+cursor: pointer;
+}
+

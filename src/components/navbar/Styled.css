@@ -5,7 +5,7 @@ body{
     background: #F9F9F9;
 }
 .content-main{
-    height: 5vh;
+    height: 56px;
     padding: 0 24px 0 24px;
     background-color: #ffffff;
     display: flex;
@@ -18,20 +18,28 @@ body{
     display: flex;
     gap: 2vw;
 }
+ 
 
 .search-bar{
+    height: 40px;
     display: flex;
     border: 1px solid #CCCC;
     border-radius: 8px;
     align-items: center;
 }
 .search-bar input{
-    width: 20vw;
+    width: 25vw;
+    height: 3vh;
     border-radius: 8px;
     border: none;
     padding: 0 1vw ;
 }
+.search-bar input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+}
 .search-bar button{
+    height: 40px;
     background: none;
 }
 .search-bar button:hover{
@@ -40,13 +48,18 @@ body{
 .icon-search{
     background-color: #cccccc66;
     padding: 0 16px;
-    border-radius: 6px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .personal-items{
     display: flex;
-    gap: 3vw;
+    gap: 2vw;
     align-items: center;
+
+    @media(max-width: 600px){
+        display: none;
+    }
 }
 
 .cursor{
