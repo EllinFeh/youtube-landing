@@ -1,0 +1,23 @@
+.full-list{
+    padding: 0px 24px 0 24px;
+}
+
+.item{
+    margin: 15px 0;
+    width: 420px;
+    height: 90px;
+    display: flex;
+}
+.item:hover{
+    cursor: pointer;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    padding: 2px 0 0 10px;
+    font-size: 13px;
+}
