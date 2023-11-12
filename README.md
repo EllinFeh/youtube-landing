@@ -1,4 +1,4 @@
-## Projeto de repaginar uma página do Youtube.
+## Projeto de repaginar o Youtube.
 #### usando os conhecimento adquiridos na trilha CSS da DIO, projeto feito em REACT.
 #####o projeto conta com 2 páginas, uma home e uma de apresentação de vídeos.
 
