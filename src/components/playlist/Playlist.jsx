@@ -74,7 +74,7 @@ const Playlist = () => {
            <div className='column'>
             <h5 style={{marginLeft:"5px", padding:"0 0 8px 0", fontSize:"14px"}}>alanzoka jogando The last of us II - #5</h5>
             <span>{channel}</span>
-            <span>20 mil visualizações • há 2 semanas</span>
+            <span>24 mil visualizações • há 3 semanas</span>
            </div>
         </div>
 
@@ -83,7 +83,7 @@ const Playlist = () => {
            <div className='column'>
             <h5 style={{marginLeft:"5px", padding:"0 0 8px 0", fontSize:"14px"}}>alanzoka jogando The last of us II - #1</h5>
             <span>{channel}</span>
-            <span>20 mil visualizações • há 2 semanas</span>
+            <span>200 mil visualizações • há 4 semanas</span>
            </div>
         </div>
 

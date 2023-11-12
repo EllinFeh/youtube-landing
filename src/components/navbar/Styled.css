@@ -1,9 +1,4 @@
 
-body{
-    height: 100vh;
-    width: 100vw;
-    background: #F9F9F9;
-}
 .content-main{
     height: 56px;
     padding: 0 24px 0 24px;
@@ -57,11 +52,23 @@ body{
     gap: 2vw;
     align-items: center;
 
-    @media(max-width: 600px){
-        display: none;
-    }
 }
 
 .cursor{
     cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .content-main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sig{
+        display: none;
+    }
+    
+   .personal-items{
+        display: flex;
+    }
 }

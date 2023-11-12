@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+}
+.main-content{
+    flex: 1;
+    width: 50vw;
+    height: 100vh;
+    max-width: 240px;
+    background-color: #fff;
+}
+
+p {
+    line-height: 1.5;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.itens {
+    gap: 13%;
+    display: flex;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+}
+
+.itens:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px ) {
+    .txt{
+        display: none;
+    }
+
+    .main-content{
+        max-width: 70px;
+    }
+}
